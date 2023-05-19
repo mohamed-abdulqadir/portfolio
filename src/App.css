@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.SectionTitle {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  letter-spacing: 1px;
+}
+
+.AboutBio {
+  color: #000;
+}
+
+.name {
+  font-family: "Courgette", cursive;
+}
+
+.frontend {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+
+.link {
+  color: #fff;
+  background-color: #2978b5;
+  border-radius: 10px;
+  padding: 0 0 0.3em 0;
+  position: relative;
+  padding: 5px;
+  font-family: "Kanit", sans-serif;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #2978b5;
+}
+
+.link::before {
+  content: "";
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  background-color: #2978b5;
+  transition: width 0.2s ease-in;
+}
+
+.link:hover::before,
+.link:focus::before {
+  width: 100%;
+}
+
+.menu-item {
+  color: #fff;
+  /* border-radius: 10px; */
+  /* padding: 0 0 0.3em 0; */
+  position: relative;
+  /* padding: 5px; */
+  font-family: "Kanit", sans-serif;
+  /* font-size: 23px; */
+  letter-spacing: 1px;
+}
+
+.menu-item::before {
+  content: "";
+  display: inline;
+  width: 0%;
+  height: 0.1em;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.2s ease-in;
+}
+
+.menu-item:hover::before,
+.menu-item:focus::before {
+  width: 100%;
+}
