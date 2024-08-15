@@ -12,8 +12,8 @@ export const ProjectList = [
     description:
       "An unofficial app for tracking your anime/manga lists, and browsing both seasonal and weekly anime (old or new) using the Anilist GraphQl Api. ",
     tech_stack: "Javascript, React JS, SASS, GraphQL, Firebase",
-    github_url: "https://github.com/mo-hokage1/AniListApp",
-    demo_url: "https://anilist-api-app.web.app/",
+    github_url: "https://github.com/mohamed-abdulqadir/AnilistApp",
+    demo_url: "https://anilistapp.netlify.app/",
   },
   {
     img: ssc,
@@ -22,7 +22,7 @@ export const ProjectList = [
       "SSC is a product reviewing website. Users can create their own products or review others' products. ",
     tech_stack:
       "HTML, CSS, Javascript, EJS, Node JS, Express JS, Passport JS, MongoDB",
-    github_url: "https://github.com/mo-hokage1/SSC",
+    github_url: "https://github.com/mohamed-abdulqadir/SSC",
     demo_url: "http://sscreviews.herokuapp.com/",
   },
   {
@@ -31,7 +31,7 @@ export const ProjectList = [
     description:
       "This website is a Netflix clone; I cloned their landing page and attempted to replicate it using React JS to further develop my UI skills.",
     tech_stack: "HTML, CSS, React JS, Axios, Firebase",
-    github_url: "https://github.com/mo-hokage1/netflix-clone",
+    github_url: "https://github.com/mohamed-abdulqadir/netflix-clone",
     demo_url: "https://netflix-clone-f49b2.web.app/",
   },
   {
@@ -40,7 +40,7 @@ export const ProjectList = [
     description:
       "This is a covid19 tracker that keeps up to date statistics on each country's infected, recovered, and deceased population. This project was built using both react class components and functional components!",
     tech_stack: "HTML, CSS, JavaScript, React JS, Material UI, Charts JS",
-    github_url: "https://github.com/mo-hokage1/Covid19Tracker",
+    github_url: "https://github.com/mohamed-abdulqadir/Covid19Tracker",
     demo_url: "https://coronatracker-mo.netlify.app/",
   },
   {
@@ -49,7 +49,7 @@ export const ProjectList = [
     description:
       "A web app that allows users to search for movies by searching, or filtering by genre. They can also see the movie's rating and synopsis. ",
     tech_stack: "HTML, CSS, Vanilla JavaScript",
-    github_url: "https://github.com/mo-hokage1/SearchMovies",
+    github_url: "https://github.com/mohamed-abdulqadir/SearchMovies",
     demo_url: "https://search-movies-tmdb.netlify.app/",
   },
 ];
